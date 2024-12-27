@@ -1,0 +1,11 @@
+<hibernate-mapping>
+
+    <class name="hibernate.using.xml.Person" table="people">
+        <id name="id" column="id" type="int" />
+        <property name="firstName" column="firstname" type="string" />
+        <property name="surname" column="surname" type="string" />
+        <property name="address" column="address" type="string" />
+
+    </class>
+
+</hibernate-mapping>
